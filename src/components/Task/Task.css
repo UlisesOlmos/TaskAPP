@@ -1,0 +1,132 @@
+.tasks__item {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--font-color);
+    background: var(--auth-background);
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+}
+
+.item__main-content {
+    position: relative;
+    padding: 12px 15px;
+}
+
+.item__title {
+    font-weight: bold;
+}
+
+.item__title--high{
+    color: #D21312;
+}
+
+.item__title--medium{
+    color: #E7B10A;
+}
+
+.item__title--low{
+    color: #54B435;
+}
+
+.item__descrip {
+    font-size: .8em;
+    margin-top: 10px;
+    max-width: 70%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.item__drop {
+    color: var(--font-color);
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.item__more {
+    padding: 15px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item__describe--more {
+    flex: 1;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: .9em;
+    white-space:normal;
+    overflow-y:auto;
+    text-overflow:clip;
+    line-height: 20px;
+    max-height: 200px;
+    padding-right: 5px;
+}
+
+.more__info {
+    font-size: .9em;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 25px;
+}
+
+.info__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info__title {
+    font-weight: bold;
+    font-size: .95em;
+}
+
+.more__options {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.options__btn {
+    padding: 8px 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.options__btn--delete {
+    background: #ED2B2A;
+    color: #EEEEEE;
+}
+
+.options__btn--delete:hover {
+    background: #D21312;
+}
+
+.options__btn--edit {
+    background: var(--btn-color);
+    color: #EEEEEE;
+}
+
+.options__btn--edit:hover {
+    background: var(--btn-hov-color);
+}

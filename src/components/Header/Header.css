@@ -1,0 +1,68 @@
+.header{
+    background: var(--auth-background);
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-family: Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: var(--font-color);
+    font-size: 2em;
+}
+
+.nav{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__btn{
+    font-family: Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+    background: var(--btn-color);
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #EEEEEE;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.nav__sign{
+    font-family: Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+    background: var(--btn-color);
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.nav__tasks{
+    font-family: Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif;
+    font-size: 1.1em;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.theme__btn{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    color: var(--font-color);
+    cursor: pointer;
+}

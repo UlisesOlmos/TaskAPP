@@ -1,0 +1,44 @@
+.tasks__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    padding: 30px 15px 15px;
+    background: var(--body-background);
+    border-radius: 5px;
+    gap: 15px;
+    border: .1em solid var(--border-color);
+    position: relative;
+}
+
+.form__input--task{
+    font-size: 1em;
+    padding: 6px 10px;
+}
+
+.form__textarea{
+    resize: none;
+    max-height: 150px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.form__submit--task{
+    margin-top: 15px;
+}
+
+.form__close{
+    margin-left: auto;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--font-color);
+    font-size: 1.2em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}

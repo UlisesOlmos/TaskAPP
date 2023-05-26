@@ -1,0 +1,23 @@
+
+:root{
+    --body-background:#f9fafb;
+    --font-color: #000000;
+
+    --auth-background:#ffffff;
+    --auth-hov-background:#f7f8f9;
+
+
+    --border-color: #D3D3D3;
+    --btn-color:#0f766e;
+    --btn-hov-color:#115e59;
+}
+
+.dark{
+    --body-background:#111827;
+    --font-color: #EEEEEE;
+
+
+    --auth-background:#1f2937;
+    --auth-hov-background:#374151;
+    --border-color: #3F3F3F;
+}

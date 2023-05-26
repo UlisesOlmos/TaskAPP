@@ -1,0 +1,74 @@
+.signup__form ,.signin__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form__label{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .85em;
+    gap: 7px;
+    color: var(--font-color);
+}
+
+.form__input{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid var(--border-color);
+    font-size: 1.1em;
+    padding: 8px 12px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form__submit{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    background: var(--btn-color);
+    cursor: pointer;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.form__submit:hover{
+    background: var(--btn-hov-color);
+}
+
+.form__text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: var(--font-color);
+}
+
+.form__text a{
+    text-decoration: none;
+    color: var(--btn-color);
+    font-weight: bold;
+}
+
+.google-auth{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    letter-spacing: 1px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top:20px ;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--border-color);
+    background: none;
+    color: var(--font-color);
+}
+
+.google-auth:hover{
+    background: var(--auth-hov-background);
+}
